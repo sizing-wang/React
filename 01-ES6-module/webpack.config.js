@@ -10,8 +10,8 @@ module.exports = {
     // entry: './src/index1.js', // 单一入口
     // 多入口
     entry: {
-        index: "./src/view/index/index.js",
-        common: "./src/view/common/common.js"
+        index: "./src/index.js",
+        // common: "./src/view/common/common.js"
     },
     // 出口
     output: {
