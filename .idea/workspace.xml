@@ -2,11 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a72b93e-403f-485a-bba9-754bbd8ec69b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-ES6-module/src/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-ES6-module/src/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/pages/todoList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/pages/todoList/store/actionCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/pages/todoList/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/pages/todoList/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/pages/todoList/store/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/pages/todoList/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/pages/todoList/todoList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/store/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/010-react-immutable/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/pages/todoList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/pages/todoList/store/actionCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/pages/todoList/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/pages/todoList/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/pages/todoList/store/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/pages/todoList/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/pages/todoList/todoList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/store/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/011-react-router/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-install/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-install/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-install/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-install/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/src-inventedDOM/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/src-toduList/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/src-toduList/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/src-toduList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/src-toduList/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-todoList/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-antd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-antd/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-antd/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-antd/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-antd/src/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-antd/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-antd/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/store/actionCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/store/appUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/store/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/store/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-redux/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/store/actionCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/store/appUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/store/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/store/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-redux-thunk/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/store/actionCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/store/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/store/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-react-redux/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/pages/todoList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/pages/todoList/store/actionCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/pages/todoList/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/pages/todoList/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/pages/todoList/store/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/pages/todoList/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/pages/todoList/todoList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/store/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-react-redux-reorg/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-ES6-module/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-ES6-module/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-ES6-module/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-ES6-module/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-ES6-module/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-ES6-module/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +114,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -27,11 +124,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U9Y8GbooyUhVxN5XgYesMfRFC3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SGG/React_test/work" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,13 +139,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WKQ\LiYuIT\React\01-ES6-module" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WKQ\LiYuIT\React\011-react-router\src" />
+      <recent name="E:\WKQ\LiYuIT\React\011-react-router" />
+      <recent name="E:\WKQ\LiYuIT\React\010-react-immutable" />
+      <recent name="E:\WKQ\LiYuIT\React\09-react-redux-reorg" />
+      <recent name="E:\WKQ\LiYuIT\React\08-react-redux\src\store" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WKQ\LiYuIT\React\04-myApp\src" />
+      <recent name="E:\WKQ\LiYuIT\React\04-myApp\src\test" />
+      <recent name="E:\WKQ\LiYuIT\React\05-antd" />
       <recent name="E:\WKQ\LiYuIT\React" />
+      <recent name="E:\WKQ\LiYuIT\React\01-ES6-module" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,6 +183,24 @@
       <workItem from="1574828174742" duration="79000" />
       <workItem from="1574836346557" duration="127000" />
       <workItem from="1574838480032" duration="2408000" />
+      <workItem from="1574935456265" duration="9073000" />
+      <workItem from="1575006258285" duration="4508000" />
+      <workItem from="1575017797199" duration="5602000" />
+      <workItem from="1575026588759" duration="1625000" />
+      <workItem from="1575028824347" duration="1986000" />
+      <workItem from="1575091621767" duration="624000" />
+      <workItem from="1575165683857" duration="6077000" />
+      <workItem from="1575177739140" duration="13689000" />
+      <workItem from="1575259384918" duration="21265000" />
+      <workItem from="1575351131422" duration="907000" />
+      <workItem from="1575356344791" duration="11655000" />
+      <workItem from="1575436925901" duration="7771000" />
+      <workItem from="1575451392098" duration="636000" />
+      <workItem from="1575531605482" duration="7366000" />
+      <workItem from="1575604418242" duration="12945000" />
+      <workItem from="1575694329102" duration="6860000" />
+      <workItem from="1575706014278" duration="166000" />
+      <workItem from="1575706980575" duration="12000" />
     </task>
     <servers />
   </component>
@@ -85,7 +212,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

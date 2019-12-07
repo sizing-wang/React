@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.toDo{
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+}
+input{
+    width: 600px;
+    height: 40px;
+    vertical-align: top;
+}
+.btn{
+    width: 10%;
+    height: 44px;
+    border: none;
+    outline: none;
+}
+.list{
+    list-style: none;
+    margin-top: 20px;
+}
+.list li:hover{
+    background: #cccccc;
+}

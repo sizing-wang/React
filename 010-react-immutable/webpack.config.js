@@ -4,7 +4,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
     // 指定开发环境
-    mode:'development',
+    mode:'development', // development | production | none
     // 这里应用程序开始执行
     // webpack 开始打包
     // entry: './src/index1.js', // 单一入口
@@ -42,14 +42,21 @@ module.exports = {
                 }
             ]
         },
-        // 添加bable-loader
+        // 配置bable-loader
         {
             test:/\.js$/,
             exclude: /(node_modules)/,
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['env', 'react']
+                    presets: ['env', 'react'],
+                    "plugins": [
+                        ["import", {
+                            "libraryName": "antd",
+                            "libraryDirectory": "es",
+                            "style": "css" // `style: true` 会加载 less 文件
+                        }]
+                    ]
                 }
             }
         }
@@ -58,7 +65,7 @@ module.exports = {
     plugins:[
         // 自动生成html文件
         new htmlWebpackPlugin({
-            template:'./src/view/index.html',//模板文件
+            template:'./views/index.html',//模板文件
             filename:'index.html',//输出的文件名
             // inject:'head',//脚本写在那个标签里,默认是true(在body结束后)
             hash:true,//给生成的js/css文件添加一个唯一的hash
